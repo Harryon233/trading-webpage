@@ -182,9 +182,11 @@ nav .search-bar {
     position: absolute;
     left: 15%;
 }
-nav .search-bar input[type="search here"] {
+nav .search-bar input[placeholder="Search Here"] {
     color: var(--color-dark);
-    background: transparent;
+    background: var(--color-light);
+    outline: none;
+    border: none;
     width: 100%;
 }
 nav .search-bar input[type="search"]::placeholder {
